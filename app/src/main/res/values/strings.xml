@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Application2</string>
+    <string name="drawer_opened">Open</string>
+    <string name="drawer_closed">Clode</string>
+</resources>

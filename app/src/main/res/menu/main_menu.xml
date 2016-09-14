@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+    <itemchatmsg android:id="@+id/menu_item_1" android:title="Menu itemchatmsg 1" />
+    <itemchatmsg android:id="@+id/menu_item_2" android:title="Menu itemchatmsg 2" />
+    <itemchatmsg android:id="@+id/menu_item_3" android:title="Menu itemchatmsg 3" />
+-->
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "12018500023",
+    "firebase_url": "https://admob-app-id-1787629522.firebaseio.com",
+    "project_id": "admob-app-id-1787629522",
+    "storage_bucket": "admob-app-id-1787629522.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12018500023:android:8c6f6973584fa33b",
+        "android_client_info": {
+          "package_name": "app.swoking.fr.application2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12018500023-1bmg6pduilh2dpin75gll182km6abk5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkGcpM6kL85nlHd7wlc6Qq9Nt4fX5zJEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

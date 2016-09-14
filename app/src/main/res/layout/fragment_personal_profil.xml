@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:slideshow="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.swoking.fr.application2.Fragment.Fragment_PersonalProfil">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:weightSum="1">
+
+            <app.swoking.fr.application2.SlideShowView
+                android:id="@+id/slideShow"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:layout_weight="0.17"
+                android:scaleType="centerCrop"
+                slideshow:dotNormal="#626283"
+                slideshow:dotSelected="#62aa83"
+                slideshow:dotRadius="5dp"
+                slideshow:dotMargin="2dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="oui"
+                    android:id="@+id/btnMatch" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:forceHasOverlappingRendering="false"
+                    android:layout_weight="0.5" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chat"
+                    android:id="@+id/btnChat" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:forceHasOverlappingRendering="false"
+                    android:layout_weight="0.5" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="non"
+                    android:id="@+id/btnPass" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtBio"
+                android:layout_alignBottom="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="126dp"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_alignEnd="@+id/scrollView" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9552834735927055/4741095927"
+        />
+
+</RelativeLayout>
+
+
+    <!-- http://www.pornhub.com/view_video.php?viewkey=ph57ae9d8121de3 -->
